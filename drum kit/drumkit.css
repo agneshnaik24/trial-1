@@ -1,0 +1,28 @@
+
+
+h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.keys {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.keys .key {
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    transition: all 1s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 5px red;
+}

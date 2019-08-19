@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="drumkit.css">
+</head>
+<body>
+        <h1>KEY the BEAT</h1>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sounds"></span>
+        </div>
+
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sounds"></span>
+        </div>
+
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sounds"></span>
+        </div>
+
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sounds"></span>
+        </div>
+
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sounds"></span>
+        </div>
+
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sounds"></span>
+        </div>
+
+    </div>
+
+    <audio data-key="65" src="./sounds/clay.mp3"></audio>
+    <audio data-key="83" src="./sounds/confetti.mp3"></audio>
+    <audio data-key="68" src="./sounds/bubbles.mp3"></audio>
+    <audio data-key="70" src="./sounds/moon.mp3"></audio>
+    <audio data-key="71" src="./sounds/ufo.mp3"></audio>
+    <audio data-key="72" src="./sounds/bubbles.mp3"></audio>
+    
+    <script src="drumkit.js"></script>
+</body>
+</html>
